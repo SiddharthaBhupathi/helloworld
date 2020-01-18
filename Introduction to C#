@@ -1,0 +1,140 @@
+/*Displaying a string*/
+string name = "siddhu";
+Console.WriteLine($"My name is {name}");
+
+/*length of a string*/
+string name = siddhu;
+Console.WriteLine($"My name is {name}. It has {name.Length} letters");
+
+/*Trimming spaces in a sentence*/
+string greeting ="   hello world!   ";
+Console.WriteLine($"[greeting]");
+string trimmedgreeting = greeting.TrimStart();
+Console.WriteLine($"[trimmedgreeting]");
+trimmedgreeting = greeting.TrimEnd();
+Console.WriteLine($"[trimmedgreeting]");
+trimmedgreeting = greeting.Trim();
+Console.WriteLine($"[trimmedgreeting]");
+
+/*searching a string*/
+string songlyrics = "They hate the way you shine";
+Console.WriteLine($"songlyrics.Contains("shine"));
+Console.WriteLine($"sonlyrics.Contains("welcome"));
+
+string songlyrics = "They hate the way you shine";
+Console.WriteLine($"songlyrics.StartsWith("They"));
+Console.WriteLine($"songlyrics.EndsWith("you"));
+
+/*Changing to uppercase and lowercase letters*/
+string greetings = "welcome";
+Console.WriteLine($"greetings.ToUpper());
+Console.WriteLine($"greetings.ToLower());
+
+
+/*Introduction to Numbers*/
+/*addition of two numbers*/
+int a=3;
+int b=57;
+int c=a+b;
+Console.WriteLine(c);
+
+/*subtraction of two numbers*/
+int a=56;
+int b=34;
+int c=a-b;
+Console.WriteLine(c);
+
+/*Multiplication of two numbers*/
+int a=60;
+int b=21;
+int c=a*b;
+Console.WriteLine(c);
+
+/*Division of two numbers*/
+int a=25;
+int b=5;
+int c=a/b;
+Console.WriteLine(c);
+
+/*Range of int data type*/
+int max=int.MaxValue;
+int min=int.MinValue;
+Console.WriteLine($"The range of int is {max} to {min}");
+
+/*Range of double data type*/
+double max=double.MaxValue;
+double min=double.MinValue;
+Console.WriteLine($"The range of double data type is {max} to {min}");
+
+/*Using double for decimal point in divisions*/
+double a=15;
+double b=4;
+double c=15/4;
+Console.WriteLine(c);
+
+/*using double for greater precision after the decimal point*/
+decimal a=3.4M;
+decimal b=2.3M;
+decimal c=a/b;
+Console.WriteLine(c);
+
+/*area of a circle*/
+double r=3.8;
+double area = Math.PI*(r*r)
+Console.WriteLine(area);
+
+/*area of a rectangle
+double length=13.4;
+double breadth=4.8;
+double area=(length * breadth);
+Console.WriteLine(area);
+
+/*branches and loops in c#*/
+int a=10;
+int b=7;
+if(a+b>10)
+{
+Console.WriteLine("The answer is greater than 10");
+}
+else
+{
+Console.WriteLine("The answer is less than 10");
+}
+
+/*loops to repeat operations*/
+int counter=0;
+while(counter<10)
+{
+Console.WriteLine("the counter is {counter}");
+counter++;
+}
+
+/*do while loop*/
+int counter=0;
+do
+{
+Console.WriteLine("The counter is {counter}");
+counter++;
+} while(counter<10);
+
+/*for loop*/
+for(int counter=0; counter<10; counter++)
+{
+Console.WriteLine("The counter is {counter}");
+}
+
+/*sum of all integers from 1 to 20 that are divisible by 3*/
+int null=0;
+for(int a=1; a<21; a++)
+{
+    if(a%3==0)
+    {
+    sum = null + a;
+    }
+}
+Console.WriteLine("The sum of all integers from 1 to 20 that are divisible by 3 is {sum}");
+
+
+
+
+

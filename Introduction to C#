@@ -1,7 +1,15 @@
 /*Displaying a string*/
-string name = "siddhu";
-Console.WriteLine($"My name is {name}");
-
+namespace helloworld
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            string name = "siddhu";
+            Console.WriteLine($"My name is {name}");
+         }
+     }   
+}
 /*length of a string*/
 string name = siddhu;
 Console.WriteLine($"My name is {name}. It has {name.Length} letters");

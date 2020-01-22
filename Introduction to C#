@@ -1,15 +1,19 @@
-/*Displaying a string*/
+/*Structure of the C# program*/
+using System;
 namespace helloworld
 {
     class program
     {
-        static void Main(string[] args)
+        static void main(strings[] args)
         {
-            string name = "siddhu";
-            Console.WriteLine($"My name is {name}");
+            /*code block (contains the code needed to be executed)
          }
-     }   
+     }
 }
+
+/*Displaying a string*/
+string name = "siddhu";
+Console.WriteLine($"My name is {name}");
 /*length of a string*/
 string name = siddhu;
 Console.WriteLine($"My name is {name}. It has {name.Length} letters");

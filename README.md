@@ -1,8 +1,8 @@
 # Introduction
 This is an introduction to C# with the basic programs related to strings, numbers, arithmetic operators, branches and loops.
-Prerequisites:
+## Prerequisites:
 To be able to run the following programs, the following should be installed in your computer.
-•	Visual Studio
+* Visual Studio
 •	.NET framework (latest version recommended)
 •	Command Prompt (default)
 Procedure:

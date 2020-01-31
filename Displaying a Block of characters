@@ -1,20 +1,22 @@
-namespace program
+
+namespace programs
 {
     class square
     {
-        static void Main()
+        static void Main(String[]args)
         {
             {
-                int i = 10;
-                int j = 10;
-                for (i = 1; i <=10; i++)
+                int i, j;
+                int N = 10;
+                for (i = 1; i <= N; i++)
                 {
-                    for (j = 1; j <= 10; j++)
+                    for (j = 1; j <= N; j++)
                     {
-                        Console.WriteLine("*");
+                        Console.Write("*");
                     }
-                    Console.WriteLine("\n");
+                    Console.Write("\n");
                 }
+
             }
         }
     }
